@@ -24,6 +24,9 @@ valid_data = MNIST(
 )
 valid_loader = DataLoader(valid_data, batch_size=32, shuffle=True)
 
+
+
+
 class MyNet(nn.Module):
     def __init__(self):
         super().__init__()
